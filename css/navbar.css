@@ -1,0 +1,36 @@
+/* volgende class is toegevoegd aan de navigatie en regelt de achtergondkleur */
+.bg-white{
+  background-color: white;
+}
+/* volgende class regelt de marges en padding van de navigatie */
+.navbar{
+  z-index: 1000;
+  background-color:#8690A8;
+  padding: 0px;
+}
+
+.nav,
+.justify-content-center,
+ul{background-color:#8690A8;}
+
+a.nav-link{
+  color: white !important;
+}
+
+a.nav-link hover{
+  color: #8690A8 !important;
+  text-transform: capitalize!important;
+}
+
+.navbar-nav > li > a:hover{
+    color:#bbc4d4 !important;
+}
+
+.active a.nav-link
+{
+    color:#000 !important;
+}
+
+.navbar-nav > li.active > a:hover{
+      color:#000 !important;
+}
